@@ -40,8 +40,6 @@ source .venv/bin/activate
 
 # Install dependencies:
 
-Bash
-
-pip install swig
-
-pip install "gymnasium[box2d]" stable-baselines3 moviepy
+* Bash
+* pip install swig
+* pip install "gymnasium[box2d]" stable-baselines3 moviepy
