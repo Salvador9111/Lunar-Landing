@@ -2,8 +2,6 @@
 
 An end-to-end Reinforcement Learning (RL) engineering project built using **Python, OpenAI Gymnasium (Box2D), Stable-Baselines3, and PyTorch**. This repository documents the complete lifecycle of training an autonomous agent to master the `LunarLander-v3` environment, intentionally engineering and mitigating an AI alignment failure mode (**Goodhart's Law / Reward Hacking**), and scaling network architectures to achieve elite performance scores (~297).
 
----
-
 ## 🧪 Key Engineering Phases
 
 ### Phase 1: Baseline Physics & Observation Space
@@ -27,11 +25,9 @@ An end-to-end Reinforcement Learning (RL) engineering project built using **Pyth
 * **Training Scale:** Executed 1,000,000 timesteps using Proximal Policy Optimization (PPO) with a fine-tuned learning rate ($2e-4$).
 * **Performance:** Achieved elite evaluation scores consistently crossing the **260–297** threshold, representing precise, centered touchdowns with minimal corrective thrust.
 
----
 
 # How to Setup
 Create and activate a Python virtual environment:
-
 Bash
 python -m venv .venv
 
